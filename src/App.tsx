@@ -29,7 +29,7 @@ const Unit = lazy(() => import("./pages/Unit"));
 const App = () => {
   const theme = createTheme({
     palette: {
-      mode: colorSystem() || "dark",
+      mode: "dark",
     },
   });
 
